@@ -1,9 +1,8 @@
 @import "tailwindcss";
 
-@import "tailwindcss";
-
 @theme {
-    --font-sans: var(--font-inter);
+  --font-sans: var(--font-inter);
+  
   /* Tu paleta de colores monolítica institucional */
   --color-stone-950: #0c0a09; /* Fondo global profundo */
   --color-stone-900: #1c1917; /* Fondo de tus tarjetas de actividades */
@@ -18,4 +17,11 @@
   /* El corner-radius premium de tus tarjetas */
   --radius-card-premium: 16px;
 }
+
+/* 🚀 EL PARCHE DE DESPLAZAMIENTO SUAVE PARA NAVEGAR ENTRE SECCIONES */
+html {
+  scroll-behavior: smooth;
+}
+
+
 

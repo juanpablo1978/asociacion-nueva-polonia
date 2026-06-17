@@ -12,7 +12,7 @@ const page = () => {
 
   return (
    <main className="flex min-h-screen flex-col">
-     <Header />
+    <div id="header"><Header/></div>
      <Hero />
      <div id="inicio"> <Home /> </div>
      <div id="about"> <About /> </div>
